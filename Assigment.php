@@ -42,4 +42,27 @@ $result = $data["results"];
 </tr>
     </thead>
 
+    //generate a table from a PHP array 
     
+    <tbody>
+     <?php
+     foreach($rcord as $student){
+     ?>
+     <tr>
+                <td><?php
+                echo $student["year"];?></td>
+                <td><?php echo $student["Semester"];?></td>
+              <td><?php  echo $student["the Programs"];?></td>
+               <td><?php  echo $student["Nationality"];?></td>
+              <td><?php  echo $student["Colleges"];?></td>
+              <td><?php  echo $student["Number of students"];?></td>
+      </tr>
+     <?php
+     }
+     ?>
+    </tbody>
+    
+    </table>
+    </body>
+    </html> 
+
