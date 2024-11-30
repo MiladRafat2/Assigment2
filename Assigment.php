@@ -19,3 +19,27 @@ if(!$data || !isset($data["results"])){
 $result = $data["results"];
 
 ?>
+  //Task 2: Data Visualization
+  
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+</head>
+    <body>
+        
+// creating HTML table to display retrieved data
+        
+<table>
+    <thead>
+<tr>
+    <th>Year</th>
+    <th>Semester</th>
+    <th>The Programs</th>
+    <th>Nationality</th>
+    <th>Colleges</th>
+    <th>Number of students</th>
+</tr>
+    </thead>
+
+    
